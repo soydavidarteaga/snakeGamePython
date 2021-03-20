@@ -146,7 +146,6 @@ while True:
             hiddenStep()
     #Colisiones bordes
     if (head.xcor() > 290 or head.xcor() < -290 or head.ycor() > 290 or head.ycor() < -290):
-        print("estoy aqui")
         time.sleep(1)
         head.goto(0, 0)
         hiddenStep()
